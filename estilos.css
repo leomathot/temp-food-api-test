@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blanco: #fcfcfc;
+    --negro: #202020;
+    --gris: #404040;
+
+    --color-1: #d7ffa3;
+    --color-2: #b8f5f0;
+    --color-3: #29a748;
+    --color-4: #2f7a63;
+}
+
+section {
+    width: 100%;
+    padding: 60px 30px;
+}
+  
+article {
+    width: 100%;
+}
+
+.limite-ancho-01 {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.fondo-1 {
+    background-color: var(--color-1);
+    color: var(--negro);
+}
+  
+.fondo-2 {
+    background-color: var(--color-2);
+    color: var(--negro);
+}
+  
+.fondo-3 {
+    background-color: var(--color-3);
+    color: var(--blanco);
+}
+  
+.fondo-4 {
+    background-color: var(--color-4);
+    color: var(--blanco);
+}
+  
+.fondo-negro {
+    background-color: var(--negro);
+    color: var(--color-1);
+}
+
+#busqueda-random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 20px 5px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#mensaje-aclaracion {
+    text-align: center;
+    font-size: 1rem;
+}
+
+#mensaje-aclaracion p {
+    margin: 5px;
+}
+
+#controles-busqueda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+#controles-busqueda input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+#controles-busqueda button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: var(--color-3);
+    color: var(--blanco);
+    border: 2px solid transparent;
+}
+
+#controles-busqueda button:hover {
+    background-color: var(--color-1);
+    color: var(--negro);
+    border: 2px solid var(--negro);
+}
+
+#resultado-receta-random {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#resultado-receta-random h2 {
+    text-align: center;
+}
+
+#resultado-receta-random img {
+    max-width: 100%;
+    border-radius: 15px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+#resultado-receta-random button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: var(--color-3);
+    color: var(--blanco);
+    border: 2px solid transparent;
+}
+
+#resultado-receta-random button:hover {
+    background-color: var(--color-1);
+    color: var(--negro);
+    border: 2px solid var(--negro);
+}
+
+#resultado-receta-random button span {
+    font-weight: bold;
+}
