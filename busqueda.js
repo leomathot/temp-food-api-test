@@ -4,7 +4,8 @@ let botonBuscar = document.querySelector("#boton-busqueda")
 botonBuscar.addEventListener("click", buscar)
 
 function buscar() {
-    let texto = document.querySelector("#input-busqueda").value
+    let texto = document.querySelector("#input-busqueda").value.toLowerCase()
+    console.log(texto)
 
     // const apiKey = "1cf496bec1294afb93bb885351ea44a8"
     const apiKey = "e1a1056a0a904d569e1a7cae36d6aab1"
