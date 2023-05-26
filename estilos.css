@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,10 @@
     --color-2: #b8f5f0;
     --color-3: #29a748;
     --color-4: #2f7a63;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -99,15 +105,13 @@ article {
     border-radius: 10px;
     font-size: 1rem;
     padding: 10px 20px;
-    background-color: var(--color-3);
+    background-color: var(--color-4);
     color: var(--blanco);
     border: 2px solid transparent;
 }
 
 #controles-busqueda button:hover {
-    background-color: var(--color-1);
-    color: var(--negro);
-    border: 2px solid var(--negro);
+    background-color: var(--color-3);
 }
 
 #resultado-receta-random {
@@ -134,15 +138,13 @@ article {
     border-radius: 10px;
     font-size: 1rem;
     padding: 10px 20px;
-    background-color: var(--color-3);
+    background-color: var(--color-4);
     color: var(--blanco);
     border: 2px solid transparent;
 }
 
 #resultado-receta-random button:hover {
-    background-color: var(--color-1);
-    color: var(--negro);
-    border: 2px solid var(--negro);
+    background-color: var(--color-3);
 }
 
 #resultado-receta-random button span {
