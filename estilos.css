@@ -21,6 +21,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    min-height: 100vh;
+}
+
 section {
     width: 100%;
     padding: 60px 30px;
@@ -75,11 +79,8 @@ article {
     text-align: center;
 }
 
-#mensaje-aclaracion {
-    font-size: 1rem;
-}
-
 #mensaje-aclaracion p {
+    font-size: 0.9rem;
     margin: 5px;
 }
 
@@ -137,7 +138,7 @@ article {
     outline: none;
     border-radius: 10px;
     font-size: 1rem;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: var(--color-4);
     color: var(--blanco);
     border: 2px solid transparent;
